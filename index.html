@@ -1,12 +1,230 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+<title>Muziris Resort</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href='./css%3Ffamily=Open+Sans:400,300,700,800.css' rel='stylesheet' type='text/css'>
+<link href="style.css" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
 </head>
 <body>
-  <h1>:p</h1>
+<header class="main__header">
+  <div class="container">
+    <nav class="navbar navbar-default" role="navigation"> 
+      <!-- Brand and toggle get grouped for better mobile display --> 
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="navbar-header">
+        <h1 class="navbar-brand"><a href="">Muziris<span>Resort</span></a></h1>
+        <a href="index.html#" onClick="javascript.void()" class="submenu">Menus</a> </div>
+      <div class="menuBar">
+        <ul class="menu">
+          <li><a href="#contact">contact us</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse --> 
+    </nav>
+  </div>
+</header>
+<section class="slider">
+  <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="item"> <img data-src="images/slider/slider.jpg" alt="First slide" src="muziris.png" style="position: relative;top: -100px;">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="">The Muziris Resort</h1>
+            <p>Kottayil Kovilakom</p>
+            <p><a class="btn btn-default btn-lg" href="#contact" role="button">contact</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item active"> <img data-src="images/slider/slider1.jpg" alt="Second slide" src="muziris.png" style="position: relative;top: -100px;">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="">The Muziris Resort</h1>
+            <p>Kottayil Kovilakom</p>
+            <p><a class="btn btn-default btn-lg" href="#contact" role="button">contact</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item"> <img data-src="images/slider/slider2.jpg" alt="Third slide" src="muziris.png" style="position: relative;top: -100px;">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="">The Muziris Resort</h1>
+            <p>Kottayil Kovilakom</p>
+            <p><a class="btn btn-default btn-lg" href="#contact" role="button">contact</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!-- <a class="left carousel-control" href="index.html#myCarousel" data-slide="prev"><span class="glyphicon carousel-control-left"></span></a> <a class="right carousel-control" href="index.html#myCarousel" data-slide="next"><span class="glyphicon carousel-control-right"></span></a> </div> -->
+</section>
+<!--end of slider section-->
+<section class="main__middle__container homepage" id="more">
+  <div class="row text-center no-margin nothing">
+    <div class="container headings">
+      <h1 class="page_title">welcome to <span>muziris resort</span></h1>
+      <p class="small-paragraph">Retreat to peace of the greens and the heritage of muziris</p>
+      <p>The Muziris Resort offers a peaceful stay with AC and Non-AC rooms, along with sumptuous homemade Kerala style food, conference hall, and also provides boating facilities through the heritage sites of muziris.</p>
+     <!-- <p><a class="btn btn-info btn-lg" href="index.html#" role="button">Tell me more</a></p> -->
+    </div>
+  </div>
+  <div class="row grey-info-block text-center">
+    <div class="container">
+      <h2 class="page__title">WHAT WE OFFER</h2>
+     <!-- <p class="small-paragraph">Vivamus vestibulum nulla nec ante.</p> -->
+      <div class="col-md-6"> <img src="houseboat.jpg" alt="pic" class="img-rounded img-responsive" id="picture" style="height: 360px;">
+        <h3><a href="#">Boating through Muziris</a></h3>
+        <p>Boating through the heritage sites of muziris including the palace, etc., which no one else provides.</p>
+        <!-- <p><a class="btn btn-primary" href="index.html#" role="button">Learn more</a></p> -->
+      </div>
+      <div class="col-md-6"> <img src="conference_hall.jpg" alt="pic" class="img-rounded img-responsive" style="height: 360px;">
+        <h3><a href="#">Conference Hall</a></h3>
+        <p>Weddding, parties, conference, be it anything.</p>
+       <!--  <p><a class="btn btn-primary" href="index.html#" role="button">Learn more</a></p> -->
+      </div>
+    </div>
+  </div>
+  <div class="row text-center nothing line__bg testimonials">
+    <div class="container headings">
+      <h2 class="page_title">TESTIMONIALS</h2>
+      <p class="small-paragrapher">what our happy customers have to say</p>
+      <div id="myCarousel2" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel2" data-slide-to="1"></li>
+          <li data-target="#myCarousel2" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <p>"Nullam malesuada erat ut turpis. Donec odio. Quisque volutpat mattis eros.  Suspendisse urna 
+              nibh, viverra non, semper suscipit, posuere a, pede."</p>
+            <p class="small-paragraph"><small>- Richard Johnson, Company Manager</small></p>
+          </div>
+          <div class="item">
+            <p>"Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna 
+              nibh, viverra non, semper suscipit, posuere a, pede."</p>
+            <p class="small-paragraph"><small>- Tom Felix, Sales Consultant</small></p>
+          </div>
+          <div class="item">
+            <p>"Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna Donec odio.
+              nibh, viverra non, semper suscipit, posuere a, pede."</p>
+            <p class="small-paragraph"><small>- Sarah Jones, Web Manager</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row three__blocks text-center no_padding no-margin">
+    <div class="container">
+      <h2 class="page__title">services</h2>
+      <!-- <p class="small-paragraph">Cras iaculis ultricies nulla.</p> -->
+      <div class="col-md-4">
+        <h3><a href="#">Homely Food</a></h3>
+        <img src="food.jpg" alt="image" class="img-responsive img-rounded" style="height: 190px;">
+        <p>Authentic naadan kerala food prepared and served fresh.</p>
+        <!-- <p><a class="btn btn-primary btn-md" href="index.html#" role="button">Learn more</a> -->
+      </div>
+      <div class="col-md-4 middl">
+        <h3><a href="l#">Quality Stay</a></h3>
+        <img src="img3.jpg" alt="image" class="img-responsive img-rounded">
+        <p>Quality accomodation in AC and Non AC Rooms</p>
+       <!-- <p><a class="btn btn-primary btn-md" href="index.html#" role="button">Learn more</a> -->
+      </div>
+      <div class="col-md-4">
+        <h3><a href="#">Sample tile</a></h3>
+        <img src="img2.jpg" alt="image" class="img-responsive img-rounded">
+        <p>Sample text </p>
+         <!-- <p><a class="btn btn-primary btn-md" href="index.html#" role="button">Learn more</a> -->
+      </div>
+    </div>
+  </div>
+  <!-- <div class="row no_padding no-margin nothing nice__title text-center">
+    <div class="container">
+      <h2>Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</h2>
+      <img src="big_image.jpg" alt="big image" class="img-rounded img-responsive">
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
+        Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+    </div>
+  </div> -->
+</section>
+<footer>
+  <div class="container" id="contact">
+    <div class="row">
+      <h1 style="color:white;margin-left:10px;">Contact Us</h1>
+      <hr>
+      <div class="col-md-4">
+        <h3>Address</h3>
+        <p>The Muzriz Resort (DTPC) <br/>
+            Kottayil Kovilakom, Chendamankalam,  N.Paravoor,  Ernakulam,<br/> Kerala, India</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Phone</h3>
+        <p>+91 98479 55311</p>
+      </div>
+      <div class="col-md-4">
+          <h3>Email</h3>
+          <p>josephbijutt@gmail.com</p>
+      </div>
+    <!--  <div class="col-md-3">
+        <h3>Mailing list</h3>
+        <p>Subscribe to our mailing list for offers, news updates and more!</p>
+        <br />
+        <form action="index.html#" method="post" class="form-inline" role="form">
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputEmail2">your email</label>
+            <input type="email" class="form-control form-control-lg" id="exampleInputEmail2" placeholder="your email">
+          </div>
+          <button type="submit" class="btn btn-default btn-md">subscribe</button>
+        </form>
+      </div>
+      <div class="col-md-3">
+        <h3>Social</h3>
+        <p>123 Business Way<br />
+          San Francisco, CA 94108<br />
+          USA<br />
+          <br />
+          Phone: (888) 123-4567<br />
+          Fax: (887) 123-4567<br />
+          <br />
+        </p>
+        <div class="social__icons"> <a href="index.html#" class="socialicon socialicon-twitter"></a> <a href="index.html#" class="socialicon socialicon-facebook"></a> <a href="index.html#" class="socialicon socialicon-google"></a> <a href="index.html#" class="socialicon socialicon-mail"></a> </div>
+      </div> -->
+    </div>
+    <hr>
+    <!-- <p class="text-center">&copy; Copyright ABC Company. All Rights Reserved.</p> -->
+  </div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script type="text/javascript" src="jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="bootstrap.min.js"></script> 
+<script type="text/javascript">
+
+$('.carousel').carousel({
+  interval: 3500, // in milliseconds
+  pause: 'none' // set to 'true' to pause slider on mouse hover
+})
+
+</script>
+<script type="text/javascript">
+$( "a.submenu" ).click(function() {
+$( ".menuBar" ).slideToggle( "normal", function() {
+// Animation complete.
+});
+});
+$( "ul li.dropdown a" ).click(function() {
+$( "ul li.dropdown ul" ).slideToggle( "normal", function() {
+// Animation complete.
+});
+$('ul li.dropdown').toggleClass('current');
+});
+</script>
 </body>
 </html>
